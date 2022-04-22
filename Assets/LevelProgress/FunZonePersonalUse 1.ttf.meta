@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: f8a44f950109e4c4eb14eace357f41dd
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Fun Zone - Personal Use
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 4ae4a341d9424f245adc4501d2c4ca1b, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
