@@ -1,0 +1,13 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/modules.xml
+/contentModel.xml
+/projectSettingsUpdater.xml
+/.idea.Taking-a-snow-castle.iml
+# Datasource local storage ignored files
+/../../../../../../:\UnityGames\Taking-a-snow-castle\.idea\.idea.Taking-a-snow-castle\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/

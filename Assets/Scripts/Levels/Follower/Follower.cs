@@ -57,6 +57,7 @@ public class Follower : MonoBehaviour
             case FollowerState.WalkToUnit:
                 if (_currentEnemy)
                 {
+                    _navMeshAgent.speed *= 2;
                     _navMeshAgent.SetDestination(_currentEnemy.transform.position);
                     var distance = Vector3.Distance(transform.position, _currentEnemy.transform.position);
                     
@@ -70,7 +71,7 @@ public class Follower : MonoBehaviour
             case FollowerState.AttackEnemy:
                 var particle = Instantiate(dieParticle , transform.position, transform.rotation);
                 Destroy(particle.gameObject,1f);
-                Destroy(gameObject,1f);
+                Destroy(gameObject,0.5f);
                 break;
             case FollowerState.AttackBoss:
                 break;
