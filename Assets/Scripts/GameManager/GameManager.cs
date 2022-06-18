@@ -10,6 +10,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] private AudioSource _playerWinAudioSource;
     [SerializeField] private AudioSource _playerLoseAudioSource;
 
+    [SerializeField] private Transform _player;
+
     public static GameManager Instance;
 
     private void Awake()
@@ -27,6 +29,7 @@ public class GameManager : MonoBehaviour
     public void Win()
     {
         _playerWinAudioSource.Play();
+        _player.GetComponent<SwerveMovement>().enabled = false;
         _winObject.SetActive(true);
         
         var currentLevelIndex = SceneManager.GetActiveScene().buildIndex;
@@ -55,5 +58,6 @@ public class GameManager : MonoBehaviour
     {
         _playerLoseAudioSource.Play();
         _loseObject.SetActive(true);
+        _player.GetComponent<SwerveMovement>().enabled = false;
     }
 }

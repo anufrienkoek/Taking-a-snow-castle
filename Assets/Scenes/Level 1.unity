@@ -7615,7 +7615,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 56f82a1a3c17c3440b42d33d94244cea, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.01
+  m_Volume: 0.04
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -34821,6 +34821,7 @@ MonoBehaviour:
   _loseObject: {fileID: 1044360877}
   _playerWinAudioSource: {fileID: 1439677209}
   _playerLoseAudioSource: {fileID: 786121982}
+  _player: {fileID: 1895908258}
 --- !u!4 &1885507910
 Transform:
   m_ObjectHideFlags: 0
